@@ -12,7 +12,7 @@ class LandingState(rx.State):
     communities: list[Community] = [
         {
             "name": "Sudo FCiencias",
-            "logo_src": "/logos/sudo.jpg",
+            "logo_src": "/logos/sudo.png",
             "url": "https://linktr.ee/Sudo_FCiencias",
         },
         {
