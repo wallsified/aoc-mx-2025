@@ -45,7 +45,7 @@ def footer() -> rx.Component:
                         "Contacto", class_name="text-lg font-semibold text-white mb-4"
                     ),
                     rx.el.p(
-                        "Únete a nuestras comunidades para participar.",
+                        "Mándanos un correo en sudofciencias@gmail.com.",
                         class_name="text-sm text-gray-400",
                     ),
                 ),
@@ -53,7 +53,7 @@ def footer() -> rx.Component:
             ),
             rx.el.div(
                 rx.el.p(
-                    "© 2024 Advent of Code MX. Todos los derechos reservados.",
+                    "© 2025 Sudo FCiencias.",
                     class_name="text-center text-xs text-gray-500 mt-8",
                 )
             ),

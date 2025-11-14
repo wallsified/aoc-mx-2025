@@ -6,11 +6,11 @@ def hero_section() -> rx.Component:
         rx.el.div(
             rx.el.h1(
                 "Bienvenido a ",
-                rx.el.span("Advent of Code MX 2025", class_name="text-[#DCF763]"),
+                rx.el.span("\nAdvent of Code MX 2025", class_name="text-[#DCF763]"),
                 class_name="text-5xl md:text-7xl font-bold text-white mb-6 text-center",
             ),
             rx.el.p(
-                "El reto anual de programación que une a las comunidades tech de México.",
+                "El reto anual navideño de programación \nque une a las comunidades tech de México.",
                 class_name="text-xl text-gray-300 max-w-3xl mx-auto text-center mb-8",
             ),
             rx.el.div(

@@ -12,17 +12,17 @@ class LandingState(rx.State):
     communities: list[Community] = [
         {
             "name": "Sudo FCiencias",
-            "logo_src": "/placeholder.svg",
+            "logo_src": "assets/logos/sudo.jpg",
             "url": "https://linktr.ee/Sudo_FCiencias",
         },
         {
             "name": "PythonCDMX",
-            "logo_src": "/placeholder.svg",
+            "logo_src": "assets/logos/pythoncdmx.jpg",
             "url": "https://pythoncdmx.org/",
         },
         {
             "name": "AWS Cloud Club UNAM",
-            "logo_src": "/placeholder.svg",
+            "logo_src": "assets/logos/awscloudclubunam.png",
             "url": "https://linktr.ee/aws_unam",
         },
         {

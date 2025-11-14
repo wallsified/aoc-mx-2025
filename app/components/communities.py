@@ -26,7 +26,7 @@ def communities_section() -> rx.Component:
                 class_name="text-4xl font-bold text-white text-center mb-4",
             ),
             rx.el.p(
-                "Conoce a las comunidades que hacen posible este evento.",
+                "Conoce a las comunidades que harán posible este evento.",
                 class_name="text-lg text-gray-400 text-center mb-12",
             ),
             rx.el.div(
