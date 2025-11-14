@@ -1,6 +1,7 @@
 import reflex as rx
 from app.components.hero import hero_section
 from app.components.communities import communities_section
+from app.components.rules import rules_section
 from app.components.footer import footer
 from app.states.landing_state import LandingState
 
@@ -9,6 +10,7 @@ def index() -> rx.Component:
     return rx.el.main(
         hero_section(),
         communities_section(),
+        rules_section(),
         footer(),
         class_name="font-['JetBrains_Mono'] bg-[#101935] min-h-screen",
     )
