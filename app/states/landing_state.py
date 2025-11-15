@@ -27,12 +27,22 @@ class LandingState(rx.State):
         },
         {
             "name": "Guayaba Devs",
-            "logo_src": "/placeholder.svg",
+            "logo_src": "/logos/guayabadevs.png",
             "url": "https://guayabadev.com/",
         },
         {
-            "name": "Nebursaturn",
-            "logo_src": "/placeholder.svg",
+            "name": "Nebursaturn Academy",
+            "logo_src": "/logos/nebursaturn.jpeg",
             "url": "https://www.instagram.com/nebursaturnacademy/",
+        },
+        {
+            "name": "Panteras.Dev",
+            "logo_src": "/logos/panterasdev.jpeg",
+            "url": "https://linktr.ee/Panteras.Dev",
+        },
+        {
+            "name": "shellaquiles",
+            "logo_src": "/logos/shellaquiles.svg",
+            "url": "https://shellaquiles.org/",
         },
     ]

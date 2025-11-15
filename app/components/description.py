@@ -1,7 +1,7 @@
 import reflex as rx
 
 
-def hero_section() -> rx.Component:
+def description_section() -> rx.Component:
     return rx.el.section(
         rx.el.div(
             rx.el.h1(
@@ -12,9 +12,7 @@ def hero_section() -> rx.Component:
             rx.el.p(
                 rx.el.span("El reto anual navideño de programación"),
                 rx.el.span("\nque une a las comunidades tech en México"),
-                #"""El reto anual navideño de programación que une a las comunidades tech de México.""",
                 class_name="text-xl text-gray-300 max-w-3xl mx-auto text-center mb-8",
-                
             ),
             rx.el.div(
                 rx.el.p(

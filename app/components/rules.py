@@ -13,7 +13,7 @@ def rules_section() -> rx.Component:
     return rx.el.section(
         rx.el.div(
             rx.el.h2(
-                "Reglas de la Competición",
+                "Reglas de la Competencia",
                 class_name="text-4xl font-bold text-white text-center mb-12",
             ),
             rx.el.div(
