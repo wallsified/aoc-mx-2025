@@ -5,13 +5,15 @@ def description_section() -> rx.Component:
     return rx.el.section(
         rx.el.div(
             rx.el.h1(
-                rx.el.span("¡Bienvenido a \n"),
+                rx.el.span("""¡Bienvenido a 
+"""),
                 rx.el.span("Advent of Code MX 2025!", class_name="text-[#DD7230]"),
                 class_name="text-5xl md:text-7xl font-bold text-white mb-6 text-center flex flex-col items-center",
             ),
             rx.el.p(
                 rx.el.span("El reto anual navideño de programación"),
-                rx.el.span("\nque une a las comunidades tech en México"),
+                rx.el.span("""
+que une a las comunidades tech en México"""),
                 class_name="text-xl text-gray-300 max-w-3xl mx-auto text-center mb-8",
             ),
             rx.el.div(

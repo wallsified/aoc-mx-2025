@@ -8,6 +8,11 @@ class Community(TypedDict):
     url: str
 
 
+class Faq(TypedDict):
+    question: str
+    answer: str
+
+
 class LandingState(rx.State):
     communities: list[Community] = [
         {
@@ -44,5 +49,23 @@ class LandingState(rx.State):
             "name": "shellaquiles",
             "logo_src": "/logos/shellaquiles.svg",
             "url": "https://shellaquiles.org/",
+        },
+    ]
+    faqs: list[Faq] = [
+        {
+            "question": "¿Necesito saber programar para participar?",
+            "answer": "No es estrictamente necesario, pero sí recomendable. Los retos de Advent of Code están diseñados para ser resueltos con código, por lo que tener conocimientos básicos de programación te será de gran ayuda. ¡Es una excelente oportunidad para aprender!",
+        },
+        {
+            "question": "¿Tengo que usar un lenguaje de programación específico?",
+            "answer": "No, puedes usar el lenguaje de programación que prefieras. La belleza de Advent of Code es que es agnóstico al lenguaje.",
+        },
+        {
+            "question": "¿Tengo que pertenecer a una comunidad para participar?",
+            "answer": "Sí, para que tus puntos cuenten para la competencia, necesitas unirte a una de las comunidades participantes. Esto nos ayuda a fomentar la colaboración y el espíritu de equipo.",
+        },
+        {
+            "question": "¿Qué pasa si me uno a la mitad del evento?",
+            "answer": "¡No hay problema! Puedes unirte en cualquier momento. Aún podrás resolver los retos de los días anteriores y sumar puntos para tu comunidad.",
         },
     ]
