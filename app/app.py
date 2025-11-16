@@ -12,10 +12,15 @@ from app.states.landing_state import LandingState
 def index() -> rx.Component:
     return rx.el.main(
         description_section(),
+        rx.el.hr(class_name="border-t border-gray-700 my-2"),
         advent_section(),
+        rx.el.hr(class_name="border-t border-gray-700 my-2"),
         communities_section(),
+        rx.el.hr(class_name="border-t border-gray-700 my-2"),
         requierements_section(),
+        rx.el.hr(class_name="border-t border-gray-700 my-2"),
         rules_section(),
+        rx.el.hr(class_name="border-t border-gray-700 my-2"),
         faq_section(),
         footer(),
         class_name="font-['JetBrains_Mono'] bg-[#101935] min-h-screen",
