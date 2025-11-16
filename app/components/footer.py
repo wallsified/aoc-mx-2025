@@ -24,7 +24,7 @@ def footer() -> rx.Component:
                         rx.el.li(
                             rx.el.a(
                                 "Repositorio GitHub",
-                                href="https://github.com/mouredev/one-day-one-language",
+                                href="https://github.com/null",
                                 target="_blank",
                                 class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                             )
@@ -44,16 +44,18 @@ def footer() -> rx.Component:
                     rx.el.h3(
                         "Contacto", class_name="text-lg font-semibold text-white mb-4"
                     ),
-                    rx.el.p(
-                        "Únete a nuestras comunidades para participar.",
-                        class_name="text-sm text-gray-400",
+                    rx.el.a(
+                        "sudofciencias@gmail.com",
+                        href="mailto:sudofciencias@gmail.com",
+                        target="_blank",
+                        class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                     ),
                 ),
                 class_name="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left",
             ),
             rx.el.div(
                 rx.el.p(
-                    "© 2024 Advent of Code MX. Todos los derechos reservados.",
+                    "© 2025 Sudo FCiencias.",
                     class_name="text-center text-xs text-gray-500 mt-8",
                 )
             ),

@@ -8,9 +8,9 @@ def community_card(community: rx.Var[dict]) -> rx.Component:
             rx.el.img(
                 src=community["logo_src"],
                 alt=community["name"],
-                class_name="h-16 w-16 object-contain",
+                class_name="h-31 w-31 object-contain",
             ),
-            class_name="bg-white rounded-2xl p-6 flex items-center justify-center h-32 w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#DCF763]/20",
+            class_name=f"bg-white rounded-3xl p-3 flex items-center justify-center h-31 w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#DCF763]/15",
         ),
         href=community["url"],
         target="_blank",
@@ -26,7 +26,7 @@ def communities_section() -> rx.Component:
                 class_name="text-4xl font-bold text-white text-center mb-4",
             ),
             rx.el.p(
-                "Conoce a las comunidades que hacen posible este evento.",
+                "Conoce a las comunidades que harán posible este evento.",
                 class_name="text-lg text-gray-400 text-center mb-12",
             ),
             rx.el.div(
