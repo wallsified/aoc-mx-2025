@@ -46,7 +46,7 @@ def footer() -> rx.Component:
                     ),
                     rx.el.a(
                         "sudofciencias@gmail.com",
-                        href="mailto://sudofciencias@gmail.com",
+                        href="mailto:sudofciencias@gmail.com",
                         target="_blank",
                         class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                     ),

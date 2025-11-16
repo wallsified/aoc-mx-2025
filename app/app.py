@@ -1,5 +1,6 @@
 import reflex as rx
 from app.components.description import description_section
+from app.components.advent import advent_section
 from app.components.communities import communities_section
 from app.components.rules import rules_section
 from app.components.requirements import requierements_section
@@ -11,6 +12,7 @@ from app.states.landing_state import LandingState
 def index() -> rx.Component:
     return rx.el.main(
         description_section(),
+        advent_section(),
         communities_section(),
         requierements_section(),
         rules_section(),
