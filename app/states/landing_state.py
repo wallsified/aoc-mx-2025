@@ -51,8 +51,6 @@ class LandingState(rx.State):
             "url": "https://shellaquiles.org/",
         },
     ]
-
-    # una lista de FAQs que se le ocurrieron al reflex-bot.
     faqs: list[Faq] = [
         {
             "question": "¿Necesito saber programar para participar?",
