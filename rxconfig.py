@@ -7,4 +7,6 @@ config = rx.Config(
     telemetry_enabled=False,
     reconnect_timeout=0,
     deploy_url="",
+    backend_disabled=True,
+    backend_port=0,
 )
