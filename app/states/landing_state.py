@@ -70,8 +70,6 @@ class LandingState(rx.State):
             "logo_src": "/logos/rustmx.jpg",
             "url": "https://t.me/RustMX",
         },
-        # pendientes de confirmacion: JavaMX, LIDSOL, Hackers Fight Club
-        # pendientes de informacion: RustMX, GoMX
     ]
     faqs: list[Faq] = [
         {
