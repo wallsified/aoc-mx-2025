@@ -50,6 +50,28 @@ class LandingState(rx.State):
             "logo_src": "/logos/shellaquiles.svg",
             "url": "https://shellaquiles.org/",
         },
+        {
+            "name": "FedoraMX",
+            "logo_src": "/logos/fedoramx.jpg",
+            "url": "https://t.me/fedoramexico",
+        },
+        {
+            "name": "AWS USG Ajolotes en la Nube",
+            "logo_src": "/logos/ajolotesaws.png",
+            "url": "https://aws-cdmx.my.canva.site/",
+        },
+        {
+            "name": "Grupo Linux Chihuahua",
+            "logo_src": "/logos/gluch.jpg",
+            "url": "https://www.facebook.com/groups/219085400136/",
+        },
+        {
+            "name": "RustMX",
+            "logo_src": "/logos/rustmx.jpg",
+            "url": "https://t.me/RustMX",
+        },
+        # pendientes de confirmacion: JavaMX, LIDSOL, Hackers Fight Club
+        # pendientes de informacion: RustMX, GoMX
     ]
     faqs: list[Faq] = [
         {
