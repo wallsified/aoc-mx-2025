@@ -6,7 +6,6 @@ from app.components.rules import rules_section
 from app.components.requirements import requierements_section
 from app.components.faq import faq_section
 from app.components.footer import footer
-from app.states.landing_state import LandingState
 
 
 def index() -> rx.Component:
