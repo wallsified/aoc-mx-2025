@@ -29,6 +29,16 @@ def index() -> rx.Component:
 app = rx.App(
     theme=rx.theme(appearance="light"),
     head_components=[
+        rx.el.meta(charset="UTF-8"),
+        rx.el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
+        rx.el.meta(
+            name="description",
+            content="Advent of Code MX 2025 - El reto anual navideño de programación que une a las comunidades tech en México",
+        ),
+        rx.el.meta(
+            name="keywords",
+            content="Advent of Code, programming, Mexico, coding challenge, comunidades tech",
+        ),
         rx.el.link(rel="preconnect", href="https://fonts.googleapis.com"),
         rx.el.link(rel="preconnect", href="https://fonts.gstatic.com", cross_origin=""),
         rx.el.link(
@@ -41,5 +51,5 @@ app.add_page(
     index,
     route="/",
     title="Advent of Code MX 2025",
-    description="Advent of Code MX 2025",
+    description="El reto anual navideño de programación que une a las comunidades tech en México",
 )
