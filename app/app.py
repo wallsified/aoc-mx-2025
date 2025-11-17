@@ -20,7 +20,7 @@ def index() -> rx.Component:
         rx.el.hr(class_name="border-t border-gray-700 my-2"),
         rules_section(),
         rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        #faq_section(),
+        faq_section(),
         footer(),
         class_name="font-['JetBrains_Mono'] bg-[#101935] min-h-screen",
     )
