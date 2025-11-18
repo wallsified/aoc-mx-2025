@@ -1,4 +1,5 @@
 import reflex as rx
+from app.atoms.link_alt import link_alt
 
 
 def footer() -> rx.Component:
@@ -22,19 +23,15 @@ def footer() -> rx.Component:
                     ),
                     rx.el.ul(
                         rx.el.li(
-                            rx.el.a(
+                            link_alt(
                                 "Repositorio GitHub",
                                 href="https://github.com/null",
-                                target="_blank",
-                                class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                             )
                         ),
                         rx.el.li(
-                            rx.el.a(
+                            link_alt(
                                 "Advent of Code Oficial",
                                 href="https://adventofcode.com/",
-                                target="_blank",
-                                class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                             )
                         ),
                         class_name="space-y-2",
@@ -44,11 +41,9 @@ def footer() -> rx.Component:
                     rx.el.h3(
                         "Contacto", class_name="text-lg font-semibold text-white mb-4"
                     ),
-                    rx.el.a(
+                    link_alt(
                         "sudofciencias@gmail.com",
                         href="mailto:sudofciencias@gmail.com",
-                        target="_blank",
-                        class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
                     ),
                 ),
                 class_name="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left",

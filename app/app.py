@@ -1,15 +1,24 @@
 import reflex as rx
-from app.components.description import description_section
-from app.components.advent import advent_section
-from app.components.communities import communities_section
-from app.components.rules import rules_section
-from app.components.requirements import requierements_section
-from app.components.faq import faq_section
-from app.components.footer import footer
+from app.sections.description import description_section
+from app.sections.advent import advent_section
+from app.sections.communities import communities_section
+from app.sections.rules import rules_section
+from app.sections.requirements import requierements_section
+from app.sections.faq import faq_section
+from app.sections.footer import footer
 
 
+@rx.page(
+    route="/",
+    title="Advent of Code MX 2025",
+    description="Únete al reto anual navideño de programación que une a las comunidades tech en México. Mejora tus habilidades y diviértete programando.",
+    meta=[
+        {"name": "robots", "content": "index, follow"},
+        {"name": "author", "content": "Sudo FCiencias"},
+        {"name": "language", "content": "Spanish"},
+    ],
+)
 def index() -> rx.Component:
-    """Página principal completamente estática."""
     return rx.el.main(
         description_section(),
         rx.el.hr(class_name="border-t border-gray-700 my-2"),
@@ -28,7 +37,7 @@ def index() -> rx.Component:
 
 
 app = rx.App(
-    theme=rx.theme(appearance="light"),
+    theme=rx.theme(appearance="dark"),
     head_components=[
         rx.el.meta(charset="UTF-8"),
         rx.el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
@@ -65,17 +74,5 @@ app = rx.App(
             name="viewport",
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         ),
-    ],
-    stylesheets=[],
-)
-app.add_page(
-    index,
-    route="/",
-    title="Advent of Code MX 2025 | Reto de Programación Navideño",
-    description="Únete al reto anual navideño de programación que une a las comunidades tech en México. Mejora tus habilidades y diviértete programando.",
-    meta=[
-        {"name": "robots", "content": "index, follow"},
-        {"name": "author", "content": "Sudo FCiencias"},
-        {"name": "language", "content": "Spanish"},
     ],
 )

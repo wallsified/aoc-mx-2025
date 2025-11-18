@@ -5,5 +5,5 @@ config = rx.Config(
     plugins=[rx.plugins.TailwindV3Plugin()],
     disable_plugins=["reflex.plugins.sitemap.SitemapPlugin"],
     enable_state=False,
-    backend_exception_handler=None
+    backend_exception_handler=None,
 )
