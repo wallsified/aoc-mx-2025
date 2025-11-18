@@ -1,4 +1,5 @@
 import reflex as rx
+from app.atoms.link import link
 
 
 def advent_section() -> rx.Component:
@@ -9,18 +10,14 @@ def advent_section() -> rx.Component:
         ),
         rx.el.div(
             rx.el.p(
-                rx.el.a(
+                link(
                     "Advent of Code",
                     href="https://adventofcode.com/",
-                    target="_blank",
-                    class_name="text-[#DCF763] font-semibold underline hover:text-[#DD7230] transition-colors",
                 ),
                 " es un calendario de adviento con pequeños acertijos de programación para distintos niveles de habilidad que se pueden resolver en cualquier lenguaje de programación que se desee. La idea original es de ",
-                rx.el.a(
+                link(
                     "Eric Wastl",
                     href="https://was.tl/",
-                    target="_blank",
-                    class_name="text-[#DCF763] font-semibold underline hover:text-[#DD7230] transition-colors",
                 ),
                 ". La idea es que puedas ocupar estos retos para mejorar tus habilidades de programación y que te pueda servir para entrevistas, hackatones, etc.",
                 class_name="text-lg text-gray-400 max-w-4xl mx-auto text-center leading-relaxed",
