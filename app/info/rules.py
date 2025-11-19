@@ -11,7 +11,7 @@ rules: list[Rule] = [
     {
         "number": "01",
         "rule": "Respeto y Colaboración",
-        "description": "Todos los participantes deben mantener un ambiente de respeto. Se anima la colaboración, pero las soluciones finales deben ser individuales.",
+        "description": "Todxs lxs participantes deben mantener un ambiente de respeto. Se anima la colaboración, pero las soluciones finales deben ser individuales.",
     },
     {
         "number": "02",

@@ -9,6 +9,6 @@ def requirements_item(req: Requirement) -> Component:
         divider(
             size="4", orientation="vertical", decorative=True, color_scheme="orange"
         ),
-        el.p(req["description"], class_name="text-gray-300"),
+        el.p(req["description"], class_name="text-gray-100"),
         class_name="bg-[#0c142a] bg-opacity-20 p-6 rounded-lg border border-gray-800 flex items-start gap-4",
     )

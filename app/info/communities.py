@@ -59,4 +59,9 @@ communities: list[Community] = [
         "url": "https://www.facebook.com/groups/219085400136/",
     },
     {"name": "RustMX", "logo_src": "/logos/rustmx.jpg", "url": "https://t.me/RustMX"},
+    {
+        "name": "Gophers MX",
+        "logo_src": "logos/gomx.jpg",
+        "url": "https://gophers-mx.github.io/gophers-mx/",
+    },
 ]

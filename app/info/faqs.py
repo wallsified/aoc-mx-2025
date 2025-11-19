@@ -23,4 +23,8 @@ faqs: list[Faq] = [
         "question": "¿Qué pasa si me uno a la mitad del evento?",
         "answer": "¡No hay problema! Puedes unirte en cualquier momento. Aún podrás resolver los retos de los días anteriores y sumar puntos para tu comunidad.",
     },
+    {
+        "question": "¿Puedo usar IA para resolver los retos?",
+        "answer": "La respuesta corta es no. Pero también sabemos que no podemos evitar que no lo hagas. Recuerda que el reto es por el afán de aprender, no por ganar.",
+    },
 ]

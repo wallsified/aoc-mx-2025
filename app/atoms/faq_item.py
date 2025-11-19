@@ -16,7 +16,7 @@ def faq_item(faq: Faq) -> Component:
                 ),
                 class_name="flex w-full cursor-pointer list-none items-center justify-between",
             ),
-            el.p(faq["answer"], class_name="text-gray-300 pt-4"),
+            el.p(faq["answer"], class_name="text-gray-100 pt-4"),
             class_name="w-full",
         ),
         class_name="w-full bg-[#0c142a] bg-opacity-20 p-6 rounded-lg border border-gray-800",

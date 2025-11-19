@@ -9,6 +9,6 @@ def rule_item(rule: Rule) -> Component:
         divider(
             size="4", orientation="vertical", decorative=True, color_scheme="orange"
         ),
-        el.p(rule["description"], class_name="text-gray-300"),
+        el.p(rule["description"], class_name="text-gray-100"),
         class_name="bg-[#0c142a] bg-opacity-20 bg-opacity-20 p-6 rounded-lg border border-gray-800 flex items-start gap-4",
     )

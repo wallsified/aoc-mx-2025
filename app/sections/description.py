@@ -6,7 +6,8 @@ def description_section() -> rx.Component:
     return rx.el.section(
         rx.el.div(
             rx.el.h1(
-                rx.el.span("""¡Bienvenido a 
+                rx.icon("tree-pine", size=50, color="white"),
+                rx.el.span("""¡Bienvenidx a 
 """),
                 rx.el.span("AdventMX 2025!", class_name="text-[#DD7230]"),
                 class_name="text-5xl md:text-7xl font-bold text-white mb-6 text-center flex flex-col items-center",
@@ -29,6 +30,6 @@ que une a las comunidades tech en México."""),
                 ),
                 class_name="bg-[#0c142a] bg-opacity-20 p-8 rounded-2xl border border-gray-800",
             ),
-            class_name="container mx-auto px-4 py-16",
-        )
+            class_name="container mx-auto px-4 py-18",
+        ),
     )
