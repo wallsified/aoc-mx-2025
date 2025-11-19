@@ -14,8 +14,8 @@ def description_section() -> rx.Component:
             rx.el.p(
                 rx.el.span("El reto anual navideño de programación"),
                 rx.el.span("""
-que une a las comunidades tech en México"""),
-                class_name="text-xl text-gray-300 max-w-3xl mx-auto text-center mb-8",
+que une a las comunidades tech en México."""),
+                class_name="text-xl text-gray-200 max-w-3xl mx-auto text-center mb-8",
             ),
             rx.el.div(
                 rx.el.p(
@@ -25,9 +25,9 @@ que une a las comunidades tech en México"""),
                         href="https://adventofcode.com/",
                     ),
                     ". Nuestro objetivo es crear un espacio de aprendizaje colaborativo, fortalecer los lazos entre las comunidades tech mexicanas y, sobre todo, ¡divertirnos programando!",
-                    class_name="text-lg text-gray-400 max-w-4xl mx-auto text-center leading-relaxed",
+                    class_name="text-lg text-gray-200 max-w-4xl mx-auto text-center leading-relaxed",
                 ),
-                class_name="bg-black bg-opacity-20 p-8 rounded-2xl border border-gray-800",
+                class_name="bg-[#0c142a] bg-opacity-20 p-8 rounded-2xl border border-gray-800",
             ),
             class_name="container mx-auto px-4 py-16",
         )
