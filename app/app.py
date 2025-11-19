@@ -8,13 +8,13 @@ app = App(
         el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
         el.meta(
             name="description",
-            content="Advent of Code MX 2025 - El reto anual navideño de programación que une a las comunidades tech en México. Únete y mejora tus habilidades de programación.",
+            content="AdventMX - El reto anual navideño de programación que une a las comunidades tech en México. Únete y mejora tus habilidades de programación.",
         ),
         el.meta(
             name="keywords",
             content="Advent of Code, programming, Mexico, coding challenge, comunidades tech, programación, retos, navidad, desarrollo",
         ),
-        el.meta(property="og:title", content="Advent of Code MX 2025"),
+        el.meta(property="og:title", content="AdventMX 2025"),
         el.meta(
             property="og:description",
             content="El reto anual navideño de programación que une a las comunidades tech en México",
