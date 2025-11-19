@@ -34,5 +34,5 @@ app = App(
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         ),
     ],
-    enable_state=False
+    enable_state=False,
 )
