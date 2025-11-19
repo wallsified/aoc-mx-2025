@@ -13,7 +13,6 @@ from app.sections.footer import footer
     title="AdventMX 2025",
     description="Únete al reto anual navideño de programación que une a las comunidades tech en México. Mejora tus habilidades y diviértete programando.",
     meta=[
-        {"name": "robots", "content": "index, follow"},
         {"name": "author", "content": "Sudo FCiencias"},
         {"name": "language", "content": "Spanish"},
     ],

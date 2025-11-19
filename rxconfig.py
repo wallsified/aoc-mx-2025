@@ -2,8 +2,9 @@ import reflex as rx
 
 config = rx.Config(
     app_name="app",
-    plugins=[rx.plugins.TailwindV3Plugin(), rx.plugins.sitemap.SitemapPlugin()],
-    #disable_plugins=["reflex.plugins.sitemap.SitemapPlugin"],
-    telemetry_enabled=False,
-    is_reflex_cloud=False
+    plugins=[rx.plugins.TailwindV4Plugin(), rx.plugins.sitemap.SitemapPlugin()],
+    # backend_host="0.0.0.0",
+    # backend_port=None,
+    show_built_with_reflex=False,
+    backend_exception_handler=None,
 )

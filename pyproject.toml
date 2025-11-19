@@ -5,6 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "reflex==0.8.20",
+    "reflex==0.8.3",
     "ruff>=0.14.5",
 ]

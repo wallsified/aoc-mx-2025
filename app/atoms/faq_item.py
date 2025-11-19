@@ -19,5 +19,5 @@ def faq_item(faq: Faq) -> Component:
             el.p(faq["answer"], class_name="text-gray-300 pt-4"),
             class_name="w-full",
         ),
-        class_name="w-full bg-black bg-opacity-20 p-6 rounded-lg border border-gray-800",
+        class_name="w-full bg-[#0c142a] bg-opacity-20 p-6 rounded-lg border border-gray-800",
     )
