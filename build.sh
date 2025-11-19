@@ -10,7 +10,7 @@ rm -rf public
 mkdir -p public
 
 reflex init
-reflex export
+reflex export --frontend-only
 
 # Check if zip files exist before unzipping
 if [ -f "frontend.zip" ]; then
