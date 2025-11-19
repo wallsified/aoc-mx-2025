@@ -1,12 +1,9 @@
-python3 -m venv .venv
+wget -qO- https://astral.sh/uv/install.sh | sh
+uv init
+uv add reflex==0.8.20
 source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-rm -rf public
 reflex init
 reflex export
-unzip backend.zip -d public
 unzip frontend.zip -d public
 rm -f frontend.zip
-rm -f backend.zip
 deactivate
