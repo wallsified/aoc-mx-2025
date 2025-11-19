@@ -10,4 +10,16 @@ rm -rf public
 mkdir -p public
 
 reflex init
-reflex run
+
+reflex export --frontend-only
+
+# Check if zip files exist before unzipping
+if [ -f "frontend.zip" ]; then
+    unzip -o frontend.zip -d public
+    rm -f frontend.zip
+else
+    echo "Error: frontend.zip not found"
+    exit 1
+fi
+
+deactivate
