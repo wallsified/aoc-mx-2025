@@ -1,76 +1,35 @@
-import reflex as rx
-from app.sections.description import description_section
-from app.sections.advent import advent_section
-from app.sections.communities import communities_section
-from app.sections.rules import rules_section
-from app.sections.requirements import requierements_section
-from app.sections.faq import faq_section
-from app.sections.footer import footer
+from reflex import el, App, theme
+from app.pages.index import index
 
-
-@rx.page(
-    route="/",
-    title="Advent of Code MX 2025",
-    description="Únete al reto anual navideño de programación que une a las comunidades tech en México. Mejora tus habilidades y diviértete programando.",
-    meta=[
-        {"name": "robots", "content": "index, follow"},
-        {"name": "author", "content": "Sudo FCiencias"},
-        {"name": "language", "content": "Spanish"},
-    ],
-)
-def index() -> rx.Component:
-    return rx.el.main(
-        description_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        advent_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        communities_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        requierements_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        rules_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
-        faq_section(),
-        footer(),
-        class_name="font-['JetBrains_Mono'] bg-[#101935] min-h-screen",
-    )
-
-
-app = rx.App(
-    theme=rx.theme(appearance="dark"),
+app = App(
+    theme=theme(appearance="dark"),
     head_components=[
-        rx.el.meta(charset="UTF-8"),
-        rx.el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
-        rx.el.meta(
+        el.meta(charset="UTF-8"),
+        el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
+        el.meta(
             name="description",
             content="Advent of Code MX 2025 - El reto anual navideño de programación que une a las comunidades tech en México. Únete y mejora tus habilidades de programación.",
         ),
-        rx.el.meta(
+        el.meta(
             name="keywords",
             content="Advent of Code, programming, Mexico, coding challenge, comunidades tech, programación, retos, navidad, desarrollo",
         ),
-        rx.el.meta(property="og:title", content="Advent of Code MX 2025"),
-        rx.el.meta(
+        el.meta(property="og:title", content="Advent of Code MX 2025"),
+        el.meta(
             property="og:description",
             content="El reto anual navideño de programación que une a las comunidades tech en México",
         ),
-        rx.el.meta(property="og:type", content="website"),
-        rx.el.meta(property="og:locale", content="es_MX"),
-        rx.el.meta(name="twitter:card", content="summary_large_image"),
-        rx.el.meta(name="twitter:title", content="Advent of Code MX 2025"),
-        rx.el.meta(
-            name="twitter:description",
-            content="El reto anual navideño de programación que une a las comunidades tech en México",
-        ),
-        rx.el.link(rel="preconnect", href="https://fonts.googleapis.com"),
-        rx.el.link(rel="preconnect", href="https://fonts.gstatic.com", cross_origin=""),
-        rx.el.link(
+        el.meta(property="og:type", content="website"),
+        el.meta(property="og:locale", content="es_MX"),
+        el.link(rel="preconnect", href="https://fonts.googleapis.com"),
+        el.link(rel="preconnect", href="https://fonts.gstatic.com", cross_origin=""),
+        el.link(
             href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
             rel="stylesheet",
         ),
-        rx.el.link(rel="icon", type="image/x-icon", href="/favicon.ico"),
-        rx.el.meta(name="theme-color", content="#101935"),
-        rx.el.meta(
+        el.link(rel="icon", type="image/x-icon", href="/favicon.ico"),
+        el.meta(name="theme-color", content="#101935"),
+        el.meta(
             name="viewport",
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         ),

@@ -9,7 +9,7 @@ def footer() -> rx.Component:
             rx.el.div(
                 rx.el.div(
                     rx.el.h3(
-                        "Advent of Code MX",
+                        "AdventMX",
                         class_name="text-lg font-semibold text-white mb-4",
                     ),
                     rx.el.p(
