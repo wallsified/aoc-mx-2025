@@ -5,5 +5,7 @@ config = rx.Config(
     plugins=[rx.plugins.TailwindV4Plugin(), rx.plugins.sitemap.SitemapPlugin()],
     #backend_host="0.0.0.0",
     #backend_port=None,
-    show_built_with_reflex=False
+    show_built_with_reflex=False,
+    backend_exception_handler=None,
+    
 )
