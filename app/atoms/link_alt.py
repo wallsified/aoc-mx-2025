@@ -6,5 +6,5 @@ def link_alt(text: str, href: str) -> Component:
         f"{text}",
         href=href,
         target="_blank",
-        class_name="text-sm text-gray-400 hover:text-[#DCF763] transition-colors",
+        class_name="text-sm text-white-400 hover:text-[#6f0f11] transition-colors",
     )

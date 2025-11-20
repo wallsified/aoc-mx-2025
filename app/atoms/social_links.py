@@ -5,7 +5,7 @@ import reflex as rx
 
 
 def social_link(icon: str, href: str) -> rx.Component:
-    return rx.link(rx.icon(icon, stroke_width=2, size=20, color="white"), href=href)
+    return rx.link(rx.icon(icon, stroke_width=2, size=25, color="white"), href=href)
 
 
 def socials() -> rx.Component:
@@ -13,7 +13,7 @@ def socials() -> rx.Component:
         social_link("github", "https://github.com/orgs/Sudo-FCiencias"),
         social_link("instagram", "https://instagram.com/sudo_fciencias"),
         social_link("send", "https://t.me/+5HauBpACCEU5OTQx"),
-        # social_link("linkedin", "https://linkedin.com/company/sudo-fciencias/"),
+        social_link("linkedin", "https://linkedin.com/company/sudo-fciencias/"),
         social_link("youtube", "https://www.youtube.com/@SudoFCiencias"),
         social_link("mail", "mailto:sudofciencias@gmail.com"),
         spacing="5",

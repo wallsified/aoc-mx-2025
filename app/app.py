@@ -8,13 +8,13 @@ app = App(
         el.meta(name="viewport", content="width=device-width, initial-scale=1.0"),
         el.meta(
             name="description",
-            content="AdventMX - El reto anual navideño de programación que une a las comunidades tech en México. Únete y mejora tus habilidades de programación.",
+            content="Posadas de Código - El reto anual navideño de programación que une a las comunidades tech en México. Únete y mejora tus habilidades de programación.",
         ),
         el.meta(
             name="keywords",
             content="Advent of Code, programming, Mexico, coding challenge, comunidades tech, programación, retos, navidad, desarrollo",
         ),
-        el.meta(property="og:title", content="AdventMX 2025"),
+        el.meta(property="og:title", content="Posadas de Código"),
         el.meta(
             property="og:description",
             content="El reto anual navideño de programación que une a las comunidades tech en México",
@@ -24,7 +24,7 @@ app = App(
         el.link(rel="preconnect", href="https://fonts.googleapis.com"),
         el.link(rel="preconnect", href="https://fonts.gstatic.com", cross_origin=""),
         el.link(
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap",
             rel="stylesheet",
         ),
         el.link(rel="icon", type="image/x-icon", href="/favicon.ico"),

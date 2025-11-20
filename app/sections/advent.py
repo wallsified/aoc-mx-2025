@@ -20,9 +20,9 @@ def advent_section() -> rx.Component:
                     href="https://was.tl/",
                 ),
                 ". La idea es que puedas ocupar estos retos para mejorar tus habilidades de programación y que te pueda servir para entrevistas, hackatones, etc.",
-                class_name="text-lg text-gray-400 max-w-4xl mx-auto text-center leading-relaxed",
+                class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
-            class_name="bg-[#0c142a] bg-opacity-20 p-8 rounded-2xl border border-gray-800",
+            class_name="bg-[#325832] bg-opacity-20 p-8 rounded-2xl border border-white-800",
         ),
         class_name="container mx-auto px-4 py-16",
     )

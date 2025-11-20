@@ -10,7 +10,7 @@ from app.sections.footer import footer
 
 @rx.page(
     route="/",
-    title="AdventMX 2025",
+    title="Posadas de Código",
     description="Únete al reto anual navideño de programación que une a las comunidades tech en México. Mejora tus habilidades y diviértete programando.",
     meta=[
         {"name": "author", "content": "Sudo FCiencias"},
@@ -31,5 +31,5 @@ def index() -> rx.Component:
         rx.el.hr(class_name="border-t border-gray-700 my-2"),
         faq_section(),
         footer(),
-        class_name="font-['JetBrains_Mono'] bg-[#101935] min-h-screen",
+        class_name="font-['Red_Hat_Text'] bg-[#1d351f] min-h-screen",
     )

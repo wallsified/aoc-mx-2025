@@ -12,7 +12,7 @@ def communities_section() -> rx.Component:
             ),
             rx.el.p(
                 "Conoce a las comunidades que harán posible este evento.",
-                class_name="text-lg text-gray-400 text-center mb-12",
+                class_name="text-lg text-white-400 text-center mb-12",
             ),
             rx.el.div(
                 rx.foreach(communities, community_card),
