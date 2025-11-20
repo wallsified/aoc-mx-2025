@@ -2,11 +2,21 @@ import reflex as rx
 from app.atoms.link import link
 
 
+def icon_stack() -> rx.Component:
+    return rx.hstack(
+        rx.text("{", class_name="text-15xl"),
+        rx.icon("tree-pine", size=90, color="white"),
+        rx.icon("snowflake", size=90, color="white"),
+        rx.text("}", class_name="text-15xl"),
+        align="center",
+    )
+
+
 def description_section() -> rx.Component:
     return rx.el.section(
         rx.el.div(
             rx.el.h1(
-                rx.icon("tree-pine", size=90, color="white"),
+                icon_stack(),
                 rx.el.p(".", class_name="text-[#1d351f] text-lg"),
                 rx.el.span("""¡Bienvenidx a las
 """),

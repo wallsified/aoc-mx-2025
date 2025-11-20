@@ -9,9 +9,18 @@ def desktop_footer() -> rx.Component:
             rx.el.div(
                 rx.el.div(
                     rx.flex(
+                        rx.el.h3(
+                            "{",
+                            class_name="text-left text-lg font-semibold text-white mb-4",
+                        ),
                         rx.icon("tree-pine", size=25, color="white"),
+                        rx.icon("snowflake", size=25, color="white"),
+                        rx.el.h3(
+                            "}",
+                            class_name="text-left text-lg font-semibold text-white mb-4",
+                        ),
                         # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
-                        rx.el.p(".", class_name="text-[#101935]"),
+                        rx.el.p("...", class_name="text-[#101935]"),
                         rx.el.h3(
                             "Posadas de Código",
                             class_name="text-left text-lg font-semibold text-white mb-4",

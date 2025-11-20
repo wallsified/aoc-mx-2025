@@ -21,15 +21,10 @@ from app.atoms.mobile_footer import mobile_footer
 def index() -> rx.Component:
     return rx.el.main(
         description_section(),
-        #rx.el.hr(class_name="border-t border-white-200 my-2"),
         advent_section(),
-        #rx.el.hr(class_name="border-t border-white-700 my-2"),
         communities_section(),
-        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         requierements_section(),
-        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         rules_section(),
-        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         faq_section(),
         rx.mobile_only(mobile_footer()),
         rx.tablet_and_desktop(desktop_footer()),
