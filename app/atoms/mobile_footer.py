@@ -3,12 +3,12 @@ from app.atoms.social_links import socials
 
 
 def icon_stack() -> rx.Component:
-    # Aqui, curiosamente, los corchetes no se alinean. 
+    # Aqui, curiosamente, los corchetes no se alinean.
     return rx.flex(
-        #rx.el.h3("{", class_name="text-lg text-center font-semibold text-white mb-4"),
+        # rx.el.h3("{", class_name="text-lg text-center font-semibold text-white mb-4"),
         rx.icon("tree-pine", size=25, color="white"),
         rx.icon("snowflake", size=25, color="white"),
-        #rx.el.h3("}", class_name="text-lg font-semibold text-white mb-4"),
+        # rx.el.h3("}", class_name="text-lg font-semibold text-white mb-4"),
         align="center",
     )
 

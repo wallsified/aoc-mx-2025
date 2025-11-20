@@ -7,6 +7,7 @@ from app.sections.requirements import requierements_section
 from app.sections.faq import faq_section
 from app.atoms.desktop_footer import desktop_footer
 from app.atoms.mobile_footer import mobile_footer
+from app.wraps.snow import snow
 
 
 @rx.page(
@@ -20,6 +21,7 @@ from app.atoms.mobile_footer import mobile_footer
 )
 def index() -> rx.Component:
     return rx.el.main(
+        snow(),
         description_section(),
         advent_section(),
         communities_section(),
