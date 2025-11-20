@@ -23,5 +23,10 @@ requirements: list[Requirement] = [
         "requirement": "Resuelve el ejercicio",
         "description": "Puedes resolverlo en el lenguaje en el que mejor te acomodes.",
     },
+    {
+        "number" : "04",
+        "requirement" : "Y el ganador es....",
+        "description": "Al final del torneo sabremos quien ganó por comunidad y en general. ¡Cada ejercicio cuenta!"
+    }
     # faltan más reglas evidentemente.
 ]
