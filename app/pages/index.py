@@ -5,7 +5,8 @@ from app.sections.communities import communities_section
 from app.sections.rules import rules_section
 from app.sections.requirements import requierements_section
 from app.sections.faq import faq_section
-from app.sections.footer import footer
+from app.atoms.desktop_footer import desktop_footer
+from app.atoms.mobile_footer import mobile_footer
 
 
 @rx.page(
@@ -20,16 +21,17 @@ from app.sections.footer import footer
 def index() -> rx.Component:
     return rx.el.main(
         description_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
+        #rx.el.hr(class_name="border-t border-white-200 my-2"),
         advent_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
+        #rx.el.hr(class_name="border-t border-white-700 my-2"),
         communities_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
+        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         requierements_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
+        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         rules_section(),
-        rx.el.hr(class_name="border-t border-gray-700 my-2"),
+        #rx.el.hr(class_name="border-t border-gray-700 my-2"),
         faq_section(),
-        footer(),
+        rx.mobile_only(mobile_footer()),
+        rx.tablet_and_desktop(desktop_footer()),
         class_name="font-['Red_Hat_Text'] bg-[#1d351f] min-h-screen",
     )
