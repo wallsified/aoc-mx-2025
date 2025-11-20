@@ -1,21 +1,28 @@
 import reflex as rx
-
-# from app.atoms.link_alt import link_alt
 from app.atoms.social_links import socials
 
 
-def footer() -> rx.Component:
+def desktop_footer() -> rx.Component:
     return rx.el.footer(
         rx.el.div(
-            rx.el.hr(class_name="border-t border-gray-700 my-8"),
+            rx.el.hr(class_name="border-t border-white-700 my-8"),
             rx.el.div(
                 rx.el.div(
                     rx.flex(
-                        rx.icon("tree-pine", size=25, color="white"),
-                        # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
-                        rx.el.p(".", class_name="text-[#101935]"),
                         rx.el.h3(
-                            "AdventMX",
+                            "{",
+                            class_name="text-left text-lg font-semibold text-white mb-4",
+                        ),
+                        rx.icon("tree-pine", size=25, color="white"),
+                        rx.icon("snowflake", size=25, color="white"),
+                        rx.el.h3(
+                            "}",
+                            class_name="text-left text-lg font-semibold text-white mb-4",
+                        ),
+                        # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
+                        rx.el.p("...", class_name="text-[#101935]"),
+                        rx.el.h3(
+                            "Posadas de Código",
                             class_name="text-left text-lg font-semibold text-white mb-4",
                         ),
                         direction="row",
@@ -24,7 +31,7 @@ def footer() -> rx.Component:
                     ),
                     rx.el.p(
                         "Resolviendo retos de programación, una comunidad a la vez.",
-                        class_name="text-gray-200 text-sm",
+                        class_name="text-white-300",
                     ),
                 ),
                 rx.el.div(
@@ -32,14 +39,6 @@ def footer() -> rx.Component:
                         "© 2025 Sudo FCiencias",
                         class_name="text-center text-white mb-4",
                     ),
-                    #     rx.el.li(
-                    #         link_alt(
-                    #             "Advent of Code Oficial",
-                    #             href="https://adventofcode.com/",
-                    #         )
-                    #     ),
-                    #     class_name="space-y-2",
-                    # ),
                 ),
                 rx.el.div(
                     rx.el.h3(

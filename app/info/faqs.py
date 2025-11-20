@@ -12,6 +12,18 @@ faqs: list[Faq] = [
         "answer": "No es estrictamente necesario, pero sí recomendable. Los retos de Advent of Code están diseñados para ser resueltos con código, por lo que tener conocimientos básicos de programación te será de gran ayuda. ¡Es una excelente oportunidad para aprender!",
     },
     {
+        "question": "¿Dónde puedo ver los ejercicios de cada día?",
+        "answer": "Estos se publican en la página oficial de Advent of Code, asi que debes revisarlos ahi. Aquí es más como un hub local."
+    },
+    {
+        "question" : "¿Por qué los ejercicios están en inglés?",
+        "answer": "Asi vienen de origen. Si todo sale bien, quizá el siguiente año podamos nosotros crear ejercicios en español."
+    },
+    {
+        "question": "¿Cual es la dificultad de los retos?",
+        "answer" : "Varia de cada dia. Hay unos que pueden ser más fáciles o dificiles que otros. Recuerda que por eso lo importante es aprender y mejorar, no ganar."
+    },
+    {
         "question": "¿Tengo que usar un lenguaje de programación específico?",
         "answer": "No, puedes usar el lenguaje de programación que prefieras. La belleza de Advent of Code es que es agnóstico al lenguaje.",
     },

@@ -10,7 +10,7 @@ def community_card(community: Community) -> Component:
                 alt=community["name"],
                 class_name="h-44 w-44 object-contain",
             ),
-            class_name=f"bg-white rounded-3xl p-3 flex items-center justify-center h-full w-full transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-[#DCF763]/15",
+            class_name=f"bg-white rounded-3xl p-3 flex items-center justify-center h-full w-full transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-2xl hover:shadow-[#e6be9a]/20",
         ),
         href=community["url"],
         target="_blank",

@@ -7,5 +7,5 @@ def link(text: str, href: str) -> Component:
         f"{text}",
         href=href,
         target="_blank",
-        class_name="text-[#DCF763] font-semibold hover:text-[#DD7230] transition-colors",
+        class_name="text-[#e6be9a] font-semibold hover:text-[#6f0f11] transition-colors",
     )

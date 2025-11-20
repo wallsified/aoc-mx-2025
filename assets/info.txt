@@ -1,0 +1,13 @@
+La verdad es que estoy probando colores y no hay una paleta exacta, aun. 
+
+Pero, esto es lo que ando usando:
+
+- Verde principal (para fondos mas que nada): #1d351f
+- Verde secundario (para los bloques de texto): #325832
+- Caqui-ish (para los links y/o hacer énfasis): #e6be9a
+- Rojo (transición en links): #6f0f11
+- Blanco (para los textos): basta con ponerle "white" para que jale. 
+
+La fuente que estoy probando es Red Hat Text. 
+
+Los iconos son los mismos que Lucide Icons, pero Reflex ya trae unos consigo.

@@ -64,4 +64,5 @@ communities: list[Community] = [
         "logo_src": "logos/gomx.jpg",
         "url": "https://gophers-mx.github.io/gophers-mx/",
     },
+    {"name": "LIDSOL", "logo_src": "logos/lidsol.jpg", "url": "https://lidsol.org/"},
 ]
