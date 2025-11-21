@@ -11,7 +11,7 @@ requirements: list[Requirement] = [
     {
         "number": "01",
         "requirement": "Únete a una Comunidad",
-        "description": "Cada comunidad tiene su forma de unirse. Es importante pertenecer a una para saber a donde va tu puntaje",
+        "description": "Cada comunidad tiene su forma de unirse. Es importante pertenecer a una para saber a donde va tu puntaje.",
     },
     {
         "number": "02",
@@ -20,13 +20,18 @@ requirements: list[Requirement] = [
     },
     {
         "number": "03",
-        "requirement": "Resuelve el ejercicio",
-        "description": "Puedes resolverlo en el lenguaje en el que mejor te acomodes.",
+        "requirement": "Resuelve el reto",
+        "description": "Puedes resolverlo en el lenguaje en el que mejor te acomodes. ¡No estás limitado a uno específico!",
     },
     {
-        "number" : "04",
-        "requirement" : "Y el ganador es....",
-        "description": "Al final del torneo sabremos quien ganó por comunidad y en general. ¡Cada ejercicio cuenta!"
-    }
+        "number": "04",
+        "requirement": "Sube tu solución",
+        "description": "Procura que ésta sea legible y esté bien documentada para que se pueda entender.",
+    },
+    {
+        "number": "05",
+        "requirement": "Y el ganador es....",
+        "description": "Al final del torneo sabremos quien ganó por comunidad y en general. ¡Cada ejercicio cuenta!",
+    },
     # faltan más reglas evidentemente.
 ]
