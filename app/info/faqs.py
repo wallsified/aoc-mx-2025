@@ -13,15 +13,15 @@ faqs: list[Faq] = [
     },
     {
         "question": "¿Dónde puedo ver los ejercicios de cada día?",
-        "answer": "Estos se publican en la página oficial de Advent of Code, asi que debes revisarlos ahi. Aquí es más como un hub local."
+        "answer": "Estos se publican en la página oficial de Advent of Code, asi que debes revisarlos ahi. Aquí es más como un hub local.",
     },
     {
-        "question" : "¿Por qué los ejercicios están en inglés?",
-        "answer": "Asi vienen de origen. Si todo sale bien, quizá el siguiente año podamos nosotros crear ejercicios en español."
+        "question": "¿Por qué los ejercicios están en inglés?",
+        "answer": "Asi vienen de origen. Si todo sale bien, quizá el siguiente año podamos nosotros crear ejercicios en español.",
     },
     {
         "question": "¿Cual es la dificultad de los retos?",
-        "answer" : "Varia de cada dia. Hay unos que pueden ser más fáciles o dificiles que otros. Recuerda que por eso lo importante es aprender y mejorar, no ganar."
+        "answer": "Varia de cada dia. Hay unos que pueden ser más fáciles o dificiles que otros. Recuerda que por eso lo importante es aprender y mejorar, no ganar.",
     },
     {
         "question": "¿Tengo que usar un lenguaje de programación específico?",
@@ -38,5 +38,9 @@ faqs: list[Faq] = [
     {
         "question": "¿Puedo usar IA para resolver los retos?",
         "answer": "La respuesta corta es no. Pero también sabemos que no podemos evitar que no lo hagas. Recuerda que el reto es por el afán de aprender, no por ganar.",
+    },
+    {
+        "question": "¿Habrá premios para los ganadores?",
+        "answer": "Puede que si, puede que no... ¡No lo sabrás hasta que participes!",
     },
 ]

@@ -9,13 +9,14 @@ class Snow(rx.Component):
     library = "react-snowfall"
     lib_dependencies: list[str] = ["react-fast-compare"]
     tag = "Snowfall"
-    is_default = True,
-    snowflakeCount={250},
-    style={
-        "position": 'fixed',
-        "width": '100vw',
-        "height": '100vh',
+    is_default = (True,)
+    snowflakeCount = ({250},)
+    style = {
+        "position": "fixed",
+        "width": "100vw",
+        "height": "100vh",
     }
+
 
 # Convenience function to create the Spline component.
 snow = Snow.create
