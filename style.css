@@ -8,7 +8,7 @@
 body {
   background: #1d351f; /* Main green background */
   color: #ffffff; /* White text */
-  font-family: "Source Code Pro", monospace;
+  font-family: "Red Hat Mono", monospace;
   font-weight: 300;
   font-size: 14pt;
   min-width: 60em;
