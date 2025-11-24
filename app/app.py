@@ -1,6 +1,8 @@
 from reflex import el, App, theme
 from app.pages.index import index
 from app.pages.community import community_info
+from app.pages.thanks import thanks
+from app.pages.credits import credits
 
 app = App(
     theme=theme(appearance="dark"),

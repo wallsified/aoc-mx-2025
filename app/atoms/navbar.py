@@ -1,38 +1,13 @@
 import reflex as rx
+from app.atoms.icon_stack_horizontal import icon_stack
 
 
 def link_alt(text: str, href: str) -> rx.Component:
     return rx.el.a(
         f"{text}",
         href=href,
-        target="_blank",
+        is_external=False,
         class_name="text-lg text-white-600 font-semibold hover:text-[#6f0f11] transition-colors",
-    )
-
-
-def icon_stack() -> rx.Component:
-    return rx.el.div(
-        rx.flex(
-            rx.el.h3(
-                "{",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            rx.icon("tree-pine", size=25, color="white"),
-            rx.icon("snowflake", size=25, color="white"),
-            rx.el.h3(
-                "}",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
-            rx.el.p("...", class_name="text-[#101935]"),
-            rx.el.h3(
-                "Posadas de Código",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            direction="row",
-            gap="4",
-            align="start",
-        ),
     )
 
 
@@ -40,13 +15,16 @@ def navbar() -> rx.Component:
     return rx.box(
         rx.desktop_only(
             rx.hstack(
-                icon_stack(),
+                icon_stack(25),
                 rx.spacer(),
                 rx.hstack(
                     rx.hstack(
-                        link_alt("Home", "https://www.posadasdecodigo.com/"),
-                        link_alt("Créditos", "/#"),
-                        link_alt("Agradecimientos", "/#"),
+                        link_alt("Home", "/#"),
+                        link_alt(
+                            "Leaderboard", "http://leaderboard.posadasdecodigo.com/"
+                        ),
+                        link_alt("Créditos", "/creditos"),
+                        link_alt("Agradecimientos", "/agradecimientos"),
                         justify="end",
                         spacing="5",
                     ),
@@ -61,9 +39,12 @@ def navbar() -> rx.Component:
                 rx.menu.root(
                     rx.menu.trigger(rx.icon("menu", size=25)),
                     rx.menu.content(
-                        link_alt("Home", "https://www.posadasdecodigo.com/"),
-                        link_alt("Creditos", "/#"),
-                        link_alt("Agradecimientos", "/#"),
+                        link_alt("Home", "/#"),
+                        link_alt(
+                            "Leaderboard", "http://leaderboard.posadasdecodigo.com/"
+                        ),
+                        link_alt("Creditos", "/creditos"),
+                        link_alt("Agradecimientos", "/agradecimientos"),
                     ),
                     justify="end",
                     color_scheme="green",

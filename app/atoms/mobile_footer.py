@@ -1,31 +1,6 @@
 import reflex as rx
 from app.atoms.social_links import socials
-
-
-def icon_stack() -> rx.Component:
-    return rx.el.div(
-        rx.flex(
-            rx.el.h3(
-                "{",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            rx.icon("tree-pine", size=25, color="white"),
-            rx.icon("snowflake", size=25, color="white"),
-            rx.el.h3(
-                "}",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
-            rx.el.p("...", class_name="text-[#101935]"),
-            rx.el.h3(
-                "Posadas de Código",
-                class_name="text-left text-lg font-semibold text-white mb-4",
-            ),
-            direction="row",
-            gap="4",
-            align="start",
-        ),
-    )
+from app.atoms.icon_stack_horizontal import icon_stack
 
 
 def mobile_footer() -> rx.Component:
@@ -36,7 +11,7 @@ def mobile_footer() -> rx.Component:
                 rx.el.div(
                     rx.el.div(
                         rx.vstack(
-                            icon_stack(),
+                            icon_stack(25),
                             align="center",
                         ),
                         rx.el.p(
