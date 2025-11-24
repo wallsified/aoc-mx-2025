@@ -3,13 +3,28 @@ from app.atoms.social_links import socials
 
 
 def icon_stack() -> rx.Component:
-    # Aqui, curiosamente, los corchetes no se alinean.
-    return rx.flex(
-        # rx.el.h3("{", class_name="text-lg text-center font-semibold text-white mb-4"),
-        rx.icon("tree-pine", size=25, color="white"),
-        rx.icon("snowflake", size=25, color="white"),
-        # rx.el.h3("}", class_name="text-lg font-semibold text-white mb-4"),
-        align="center",
+    return rx.el.div(
+        rx.flex(
+            rx.el.h3(
+                "{",
+                class_name="text-left text-lg font-semibold text-white mb-4",
+            ),
+            rx.icon("tree-pine", size=25, color="white"),
+            rx.icon("snowflake", size=25, color="white"),
+            rx.el.h3(
+                "}",
+                class_name="text-left text-lg font-semibold text-white mb-4",
+            ),
+            # osea que reflex no procesa espacios en los textos, pero podemos esconder los espacios?
+            rx.el.p("...", class_name="text-[#101935]"),
+            rx.el.h3(
+                "Posadas de Código",
+                class_name="text-left text-lg font-semibold text-white mb-4",
+            ),
+            direction="row",
+            gap="4",
+            align="start",
+        ),
     )
 
 
@@ -22,10 +37,6 @@ def mobile_footer() -> rx.Component:
                     rx.el.div(
                         rx.vstack(
                             icon_stack(),
-                            rx.el.h3(
-                                "Posadas de Código",
-                                class_name="text-center text-lg font-semibold text-white mb-4",
-                            ),
                             align="center",
                         ),
                         rx.el.p(

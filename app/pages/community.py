@@ -3,6 +3,7 @@ from app.sections.community_info.header import header
 from app.sections.community_info.questions import community_faqs
 from app.atoms.desktop_footer import desktop_footer
 from app.atoms.mobile_footer import mobile_footer
+from app.atoms.navbar import navbar
 from app.wraps.snow import snow
 
 
@@ -17,7 +18,8 @@ from app.wraps.snow import snow
 )
 def community_info() -> rx.Component:
     return rx.el.main(
-        # snow(),
+        snow(),
+        navbar(),
         header(),
         community_faqs(),
         rx.mobile_only(mobile_footer()),

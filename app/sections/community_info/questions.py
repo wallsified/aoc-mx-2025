@@ -142,9 +142,7 @@ def step_four() -> Component:
                 src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
             ),
             el.div(
-                el.p(
-                    "La constante en todos los lobbys es que estará el usuario"
-                ),
+                el.p("La constante en todos los lobbys es que estará el usuario"),
                 el.p("AWS Cloud Club UNAM", class_name="font-bold text-[#e7ecef]"),
                 " Esto es por que es usuario que tenemos configurado para ser el usuario 'agregador' para todos los lobbys.",
                 " Ten en cuenta que el usuario que aparece con el nombre de tu comunidad solo recursivo y lo ideal no es usarlo.",

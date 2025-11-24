@@ -49,6 +49,6 @@ def desktop_footer() -> rx.Component:
                 ),
                 class_name="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left",
             ),
-            class_name="max-w-6xl mx-auto px-4 py-8",
+            class_name="max-w-8xl mx-auto px-4 py-8",
         )
     )

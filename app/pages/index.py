@@ -9,6 +9,7 @@ from app.sections.retos import day_cards_section
 from app.atoms.desktop_footer import desktop_footer
 from app.atoms.mobile_footer import mobile_footer
 from app.wraps.snow import snow
+from app.atoms.navbar import navbar
 
 
 @rx.page(
@@ -23,6 +24,7 @@ from app.wraps.snow import snow
 def index() -> rx.Component:
     return rx.el.main(
         snow(),
+        navbar(),
         description_section(),
         advent_section(),
         communities_section(),
