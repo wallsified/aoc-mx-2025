@@ -1,5 +1,6 @@
 from reflex import el, App, theme
 from app.pages.index import index
+from app.pages.community import community_info
 
 app = App(
     theme=theme(appearance="dark"),
