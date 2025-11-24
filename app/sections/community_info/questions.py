@@ -35,7 +35,7 @@ def step_one() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/lobbies/community_login.png",
             ),
             el.div(
                 el.p(
@@ -49,7 +49,7 @@ def step_one() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/lobbies/edit_profile.png",
             ),
             class_name="bg-[#325832] bg-opacity-20 p-8 rounded-2xl border border-white-800",
         ),
@@ -84,7 +84,7 @@ def step_two() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/lobbies/created_leaderboard.png",
             ),
             class_name="bg-[#325832] bg-opacity-20 p-8 rounded-2xl border border-white-800",
         ),
@@ -112,7 +112,7 @@ def step_three() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/lobbies/joining_leaderboard.png",
             ),
             class_name="bg-[#325832] bg-opacity-20 p-8 rounded-2xl border border-white-800",
         ),
@@ -139,7 +139,7 @@ def step_four() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://000001.awsstudygroup.com/images/5-console/5.2/3.png?width=90pc",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/lobbies/members_in_leaderboard.png",
             ),
             el.div(
                 el.p("La constante en todos los lobbys es que estará el usuario"),

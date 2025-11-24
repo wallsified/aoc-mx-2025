@@ -16,7 +16,7 @@ requirements: list[Requirement] = [
     {
         "number": "02",
         "requirement": "Únete al lobby correcto",
-        "description": "Debes unirte al de tu comunidad elegida para que tu partipación cuente. ¡Registro a lobbys proximamente!",
+        "description": "Debes unirte al de tu comunidad elegida para que tu partipación cuente. Revisa con tu comunidad el ID de lobby correcto.",
     },
     {
         "number": "03",
