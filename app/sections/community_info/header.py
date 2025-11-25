@@ -4,8 +4,8 @@ import reflex as rx
 def icon_stack() -> rx.Component:
     return rx.hstack(
         rx.text("{", class_name="text-15xl"),
-        rx.icon("tree-pine", size=40, color="white"),
-        rx.icon("snowflake", size=40, color="white"),
+        rx.icon("tree-pine", size=90, color="white"),
+        rx.icon("snowflake", size=90, color="white"),
         rx.text("}", class_name="text-15xl"),
         align="center",
     )
@@ -20,7 +20,7 @@ def header() -> rx.Component:
                 rx.el.span("""Información para Comunidades
 """),
                 rx.el.span("Posadas de Código", class_name="text-[#e6be9a]"),
-                class_name="text-2xl md:text-4xl font-bold text-[#e7ecef] mb-6 text-center flex flex-col items-center",
+                class_name="text-5xl md:text-7xl font-bold text-[#e7ecef] mb-6 text-center flex flex-col items-center",
             ),
             rx.el.div(
                 rx.el.p(

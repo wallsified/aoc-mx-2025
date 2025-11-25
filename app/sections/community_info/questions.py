@@ -26,7 +26,7 @@ def step_one() -> Component:
                 el.p(
                     "Quien sea el reponsable de la comunidad debe acceder al Advent of Code original con algún método de los"
                 ),
-                " disponibles. Recomendamos GitHub y/o Google, pero debe de estar ligado a su comunidad de alguna manera u otra. ",
+                " disponibles. Recomendamos Google, pero debe de estar ligado a su comunidad de alguna manera u otra. ",
                 "Esto es por que posteriormente la información de la comunidad será usada para crear el lobby. ",
                 link(
                     text="Esto puedes hacerlo en este link.",
