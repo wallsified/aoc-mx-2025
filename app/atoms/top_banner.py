@@ -14,23 +14,23 @@ def top_banner() -> rx.Component:
                         "{",
                         rx.icon(
                             "tree-pine",
-                            class_name="h-4 w-4 text-white mr-1 text-center fg-[#e6be9a]",
+                            class_name="h-5 w-5 text-white mr-1 text-center fg-[#e6be9a]",
                         ),
                         rx.icon(
                             "snowflake",
-                            class_name="h-4 w-4 text-white mr-1 text-center fg-[#e6be9a]",
+                            class_name="h-5 w-5 text-white mr-1 text-center fg-[#e6be9a]",
                         ),
                         "}",
                         class_name="px-2 py-1 flex items-center shrink-0",
                     ),
                     rx.el.p(
                         "¡IDs de lobbys disponibles a partir del 27/11/25!",
-                        class_name="text-white font-medium text-sm truncate",
+                        class_name="text-white text-md font-semibold truncate",
                     ),
                     class_name="flex items-center justify-center flex-1 min-w-0",
                 ),
                 rx.el.button(
-                    rx.icon("x", class_name="h-4 w-4"),
+                    rx.icon("x", class_name="h-5 w-5"),
                     on_click=rx.call_script(
                         "document.getElementById('top-banner').style.display = 'none'; localStorage.setItem('banner_hidden', 'true');"
                     ),
