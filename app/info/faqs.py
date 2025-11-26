@@ -8,12 +8,16 @@ class Faq(TypedDict):
 
 faqs: list[Faq] = [
     {
+        "question": "¿Cómo me uno al evento?",
+        "answer": "Toda la información la puedes consultar en la página para participantes. Seleccionala desde la parte superior.",
+    },
+    {
         "question": "¿Necesito saber programar para participar?",
         "answer": "No es estrictamente necesario, pero sí recomendable. Los retos de Advent of Code están diseñados para ser resueltos con código, por lo que tener conocimientos básicos de programación te será de gran ayuda. ¡Es una excelente oportunidad para aprender!",
     },
     {
         "question": "¿Dónde puedo ver los ejercicios de cada día?",
-        "answer": "Estos se publican en la página oficial de Advent of Code, asi que debes revisarlos ahi. Aquí es más como un hub local.",
+        "answer": "En la parte superior de la página puedes encontrar los links directos a los retos del día.",
     },
     {
         "question": "¿Por qué los ejercicios están en inglés?",

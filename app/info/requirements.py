@@ -25,8 +25,8 @@ requirements: list[Requirement] = [
     },
     {
         "number": "04",
-        "requirement": "Sube tu solución",
-        "description": "Procura que ésta sea legible y esté bien documentada para que se pueda entender.",
+        "requirement": "Valida tu solución",
+        "description": "Cada reto tiene una sola solución. ¡Y solo las correctas cuentan!",
     },
     {
         "number": "05",

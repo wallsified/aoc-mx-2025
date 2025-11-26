@@ -10,6 +10,7 @@ from app.atoms.desktop_footer import desktop_footer
 from app.atoms.mobile_footer import mobile_footer
 from app.wraps.snow import snow
 from app.atoms.navbar import navbar
+from app.atoms.top_banner import top_banner
 
 
 @rx.page(
@@ -24,6 +25,7 @@ from app.atoms.navbar import navbar
 def index() -> rx.Component:
     return rx.el.main(
         snow(),
+        top_banner(),
         navbar(),
         description_section(),
         advent_section(),

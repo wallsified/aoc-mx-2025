@@ -3,6 +3,7 @@ from app.pages.index import index
 from app.pages.community import community_info
 from app.pages.thanks import thanks
 from app.pages.credits import credits
+from app.pages.user import user_info
 
 app = App(
     theme=theme(appearance="dark"),

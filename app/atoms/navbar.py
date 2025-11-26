@@ -23,6 +23,7 @@ def navbar() -> rx.Component:
                         link_alt(
                             "Leaderboard", "http://leaderboard.posadasdecodigo.com/"
                         ),
+                        link_alt("Info. Participantes", "/user-info"),
                         link_alt("Créditos", "/creditos"),
                         link_alt("Agradecimientos", "/agradecimientos"),
                         justify="end",

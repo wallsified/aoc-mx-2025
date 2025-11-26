@@ -5,6 +5,7 @@ from app.wraps.snow import snow
 from app.atoms.navbar import navbar
 from app.atoms.icon_stack import icon_stack
 from app.atoms.link import link
+from app.atoms.top_banner import top_banner
 
 
 def header() -> rx.Component:
@@ -79,6 +80,7 @@ def header() -> rx.Component:
 def thanks() -> rx.Component:
     return rx.el.main(
         snow(),
+        top_banner(),
         navbar(),
         header(),
         rx.mobile_only(mobile_footer()),
