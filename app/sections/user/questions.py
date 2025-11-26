@@ -102,7 +102,7 @@ def step_three() -> Component:
                 class_name="text-xl text-white-200 max-w-5xl mx-auto text-center leading-relaxed",
             ),
             faq_image(
-                src="https://wallsified.github.io/aoc-mx-2025/assets/user-info/challengue_info.png",
+                src="https://wallsified.github.io/aoc-mx-2025/assets/user-info/challenge_info.png",
             ),
             el.div(
                 el.p(
