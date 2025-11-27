@@ -45,7 +45,7 @@ communities: list[Community] = [
     },
     {
         "name": "FedoraMX",
-        "logo_src": "/logos/fedoramx.jpg",
+        "logo_src": "/logos/fedoramx.png",
         "url": "https://t.me/fedoramexico",
     },
     {
@@ -79,5 +79,10 @@ communities: list[Community] = [
         "name": "Club de Programación FING",
         "logo_src": "logos/cdpfing.png",
         "url": "https://www.instagram.com/club_de_programacion_fing"
+    },
+    {
+        "name": "AWS Cloud Club CardenalITOs",
+        "logo_src": "logos/cardenalitos.jpg",
+        "url": "https://linktr.ee/CardenalITOs_Cloud_Clubs"
     }
 ]
