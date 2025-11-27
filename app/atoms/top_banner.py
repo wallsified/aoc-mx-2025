@@ -24,7 +24,7 @@ def top_banner() -> rx.Component:
                         class_name="px-2 py-1 flex items-center shrink-0",
                     ),
                     rx.el.p(
-                        "¡IDs de lobbys disponibles a partir del 27/11/25!",
+                        "¡Los IDs de comunidades se liberan a medio día. ¡Ve creando tu cuenta!",
                         class_name="text-white text-md font-semibold truncate",
                     ),
                     class_name="flex items-center justify-center flex-1 min-w-0",

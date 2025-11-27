@@ -58,11 +58,26 @@ communities: list[Community] = [
         "logo_src": "/logos/gluch.jpg",
         "url": "https://www.facebook.com/groups/219085400136/",
     },
-    {"name": "RustMX", "logo_src": "/logos/rustmx.jpg", "url": "https://t.me/RustMX"},
+    {   "name": "RustMX", 
+        "logo_src": "/logos/rustmx.jpg", 
+        "url": "https://t.me/RustMX"},
     {
         "name": "Gophers MX",
         "logo_src": "logos/gomx.jpg",
         "url": "https://gophers-mx.github.io/gophers-mx/",
     },
-    {"name": "LIDSOL", "logo_src": "logos/lidsol.jpg", "url": "https://lidsol.org/"},
+    {   "name": "LIDSOL", 
+        "logo_src": "logos/lidsol.jpg", 
+        "url": "https://lidsol.org/"
+    },
+    {
+        "name": "C++ MX",
+        "logo_src": "logos/cppmx.png",
+        "url": "https://cpp.com.mx/"
+    },
+    {
+        "name": "Club de Programación FING",
+        "logo_src": "logos/cdpfing.png",
+        "url": "https://www.instagram.com/club_de_programacion_fing"
+    }
 ]
