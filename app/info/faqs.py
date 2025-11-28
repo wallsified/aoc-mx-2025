@@ -47,4 +47,8 @@ faqs: list[Faq] = [
         "question": "¿Habrá premios para los ganadores?",
         "answer": "Puede que si, puede que no... ¡No lo sabrás hasta que participes!",
     },
+    {
+        "question" : "¿Tengo que usar mi nombre real o puedo ocupar un pseudónimo en el torneo?",
+        "answer" : "Mientras no sea ofensivo, puedes ocupar el nombre que tu mejor consideres. "
+    }
 ]

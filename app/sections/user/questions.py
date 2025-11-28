@@ -38,7 +38,7 @@ def step_one() -> Component:
             ),
             el.div(
                 el.p(
-                    "Luego puedes ajustar la información del perfil. Esta información viene desde el método de creación de la cuenta. ",
+                    "Luego puedes ajustar la información del perfil. Puedes ocupar un pseudónimo o gamertag si lo prefieres. ",
                 ),
                 "Esto se hace desde la sección 'Settings', a la cual puedes acceder con  ",
                 link(
