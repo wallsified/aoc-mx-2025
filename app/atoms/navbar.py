@@ -21,7 +21,7 @@ def navbar() -> rx.Component:
                     rx.hstack(
                         link_alt("Home", "/#"),
                         link_alt(
-                            "Leaderboard", "http://leaderboard.posadasdecodigo.com/"
+                            "Leaderboard", "https://leaderboard.posadasdecodigo.com/"
                         ),
                         link_alt("Info. Participantes", "/user-info"),
                         link_alt("Créditos", "/creditos"),
@@ -42,7 +42,7 @@ def navbar() -> rx.Component:
                     rx.menu.content(
                         link_alt("Home", "/#"),
                         link_alt(
-                            "Leaderboard", "http://leaderboard.posadasdecodigo.com/"
+                            "Leaderboard", "https://leaderboard.posadasdecodigo.com/"
                         ),
                         link_alt("Info. Participantes", "/user-info"),
                         link_alt("Creditos", "/creditos"),
