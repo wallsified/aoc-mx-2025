@@ -1,6 +1,5 @@
 from typing import TypedDict
 
-
 class Faq(TypedDict):
     question: str
     answer: str
@@ -48,7 +47,7 @@ faqs: list[Faq] = [
         "answer": "Puede que si, puede que no... ¡No lo sabrás hasta que participes!",
     },
     {
-        "question" : "¿Tengo que usar mi nombre real o puedo ocupar un pseudónimo en el torneo?",
-        "answer" : "Mientras no sea ofensivo, puedes ocupar el nombre que tu mejor consideres. "
-    }
+        "question": "¿Tengo que usar mi nombre real o puedo ocupar un pseudónimo en el torneo?",
+        "answer": "Mientras no sea ofensivo, puedes ocupar el nombre que tu mejor consideres. ",
+    },
 ]

@@ -21,7 +21,9 @@ def day_cards() -> Component:
     return grid(
         foreach(
             Var.range(12),
-            lambda i: day_card_unit(text=f"Día {i + 1}/12", href=base_link + f"{i + 1}"),
+            lambda i: day_card_unit(
+                text=f"Día {i + 1}/12", href=base_link + f"{i + 1}"
+            ),
         ),
         columns="3",
         spacing="4",
